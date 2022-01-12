@@ -3,6 +3,7 @@
 
 ---
 vsphereCPI:
+  mode: vsphereCPI
   tlsThumbprint: ""
   server: null
   datacenter: null
@@ -38,3 +39,9 @@ vsphereCPI:
   http_proxy: ""
   https_proxy: ""
   no_proxy: ""
+  clusterAPIVersion: "run.tanzu.vmware.com/v1alpha2"
+  clusterKind: "TanzuKubernetesCluster"
+  clusterName: "test-cluster-e2e-script"
+  clusterUID: "57341fa8-0983-472f-b744-00cf724dd307"
+  supervisorMasterEndpointIP: ""
+  supervisorMasterPort: ""
